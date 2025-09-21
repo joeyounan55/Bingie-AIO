@@ -13,8 +13,8 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR blue][B]Bingie[/B][/COLOR]Lite Wizard'
-BUILDERNAME = 'BingieLiteWizard'
+ADDONTITLE = '[COLOR blue][B]Bingie Lite[/B][/COLOR] Wizard'
+BUILDERNAME = 'BingieLite Wizard'
 EXCLUDES = [ADDON_ID, 'repository.openwizard']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
 BUILDFILE = 'https://joeyounan55.github.io/bingie.lite/builds/builds.txt'
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR blue][B]BingieLite[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
