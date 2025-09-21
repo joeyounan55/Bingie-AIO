@@ -13,8 +13,8 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR limegreen][B]Bingie[/B][/COLOR]Lite Wizard'
-BUILDERNAME = 'OpenWizard'
+ADDONTITLE = '[COLOR blue][B]Bingie[/B][/COLOR]Lite Wizard'
+BUILDERNAME = 'BingieLiteWizard'
 EXCLUDES = [ADDON_ID, 'repository.openwizard']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
 BUILDFILE = 'https://joeyounan55.github.io/bingie.lite/builds/builds.txt'
@@ -60,7 +60,7 @@ SPACER = '='
 
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
-COLOR1 = 'limegreen'
+COLOR1 = 'blue'
 COLOR2 = 'white'
 # Primary menu items   / {0} is the menu item and is required
 THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]Open[/B][/COLOR][COLOR {color2}]Wizard[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
