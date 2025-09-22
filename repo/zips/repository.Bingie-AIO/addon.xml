@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Bingie-AIO" name="Bingie-AIO Repo" version="1.0.0" provider-name="joeyounan55">
+<addon id="repository.bingie-aio" name="Bingie-AIO Repo" version="1.0.0" provider-name="joeyounan55">
     <extension point="xbmc.addon.repository" name="Bingie-AIO Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/joeyounan55/Bingie-AIO/master/repo/zips/addons.xml</info>
