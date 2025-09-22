@@ -15,7 +15,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 ADDONTITLE = '[COLOR blue][B]Bingie-AIO[/B][/COLOR] Wizard'
 BUILDERNAME = 'Bingie-AIO Wizard'
-EXCLUDES = [ADDON_ID, 'plugin.program.bingie-aiowizard']
+EXCLUDES = [ADDON_ID, 'plugin.program.bingie.aiowizard']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
 BUILDFILE = 'https://xlite5.github.io/bingie.aio/builds/builds.txt'
 # How often you would like it to check for build updates in days
