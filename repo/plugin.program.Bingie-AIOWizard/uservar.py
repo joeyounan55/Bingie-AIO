@@ -15,7 +15,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 ADDONTITLE = '[COLOR blue][B]Bingie-AIO[/B][/COLOR] Wizard'
 BUILDERNAME = 'Bingie-AIO Wizard'
-EXCLUDES = [ADDON_ID, 'repository.openwizard']
+EXCLUDES = [ADDON_ID, 'plugin.program.bingie-aiowizard']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
 BUILDFILE = 'https://joeyounan55.github.io/Bingie-AIO/builds/builds.txt'
 # How often you would like it to check for build updates in days
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR blue][B]BingieLite[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR blue][B]Bingie-AIO[/B][/COLOR] Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
