@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.program.bingielitewizard" name="[COLOR blue]BingieLite[/COLOR] Wizard" version="2.0.7" provider-name="joeyounan55">
+<addons><addon id="plugin.program.Bingie-AIOWizard" name="[COLOR blue]Bingie-AIO[/COLOR] Wizard" version="2.0.7" provider-name="joeyounan55">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -15,8 +15,8 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR blue]BingieLite[/COLOR] Wizard</summary>
-        <description lang="en">[COLOR blue]BingieLite[/COLOR] Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <summary lang="en">[COLOR blue]Bingie-AIO[/COLOR] Wizard</summary>
+        <description lang="en">[COLOR blue]Bingie-AIO[/COLOR] Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
@@ -145,17 +145,17 @@
             <fanart>fanart.png</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.bingie.lite" name="BingieLite Repo" version="1.0.0" provider-name="joeyounan55">
-    <extension point="xbmc.addon.repository" name="BingieLite Repository">
+</addon><addon id="repository.Bingie-AIO" name="Bingie-AIO Repo" version="1.0.0" provider-name="joeyounan55">
+    <extension point="xbmc.addon.repository" name="Bingie-AIO Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/joeyounan55/bingie.lite/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/joeyounan55/bingie.lite/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/joeyounan55/bingie.lite/master/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/joeyounan55/Bingie-AIO/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/joeyounan55/Bingie-AIO/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/joeyounan55/Bingie-AIO/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>BingieLite Repo</summary>
-        <description>A lightweight repository for BingieLite builds and add-ons.</description>
+        <summary>Bingie-AIO Repo</summary>
+        <description>A lightweight repository for Bingie-AIO builds and add-ons.</description>
 <disclaimer>Use at your own risk. This repository is not affiliated with Kodi.</disclaimer>
         <platform>all</platform>
         <assets>
